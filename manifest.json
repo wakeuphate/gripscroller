@@ -1,0 +1,15 @@
+{
+	"name": "GripScroll",
+	"version": "0.1",
+	"description": "Creates a grippable page with mouse1 and mouse2 pressed together.",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": [
+				"vendor/jquery-2.1.3.min.js", 
+				"gripscroller.js"
+			]
+		}
+  ],
+	"manifest_version": 2
+}
